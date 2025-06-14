@@ -1,0 +1,64 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "name": "Mindustry Mod Files",
+            "include": [
+                "**/*.java",
+                "**/*.json",
+                "**/*.properties",
+                "**/*.png",
+                "**/*.ogg",
+                "**/*.mp3"
+            ]
+        },
+        {
+            "name": "Mod Configuration",
+            "include": [
+                "mod.json",
+                "mod.hjson"
+            ]
+        },
+        {
+            "name": "Mod Assets",
+            "include": [
+                "sprites/**/*",
+                "sounds/**/*",
+                "bundles/**/*"
+            ]
+        },
+        {
+            "name": "Mod Content",
+            "include": [
+                "content/**/*.json",
+                "content/**/*.hjson"
+            ]
+        },
+        {
+            "name": "Build Files",
+            "include": [
+                "build.gradle",
+                "gradle.properties",
+                "settings.gradle"
+            ]
+        },
+        {
+            "name": "Documentation",
+            "include": [
+                "README.md",
+                "LICENSE",
+                "CHANGELOG.md"
+            ]
+        }
+    ],
+    "exclude": [
+        ".git/**",
+        ".gradle/**",
+        "build/**",
+        "out/**",
+        "*.iml",
+        ".idea/**",
+        "*.class",
+        "*.jar"
+    ]
+} 

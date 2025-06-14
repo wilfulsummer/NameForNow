@@ -1,0 +1,10 @@
+{
+    "name": "name-for-now",
+    "displayName": "Name For Now",
+    "author": "Your Name",
+    "description": "A mod that adds new resources including Diamond.",
+    "version": "1.0",
+    "minGameVersion": "149",
+    "dependencies": [],
+    "hidden": false
+} 
