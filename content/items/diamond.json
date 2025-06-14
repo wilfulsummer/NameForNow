@@ -5,6 +5,7 @@
     "hardness": 5,
     "cost": 1.5,
     "color": "7FDBFF",
+    "icon": "diamond",
     "research": {
         "parent": "titanium",
         "requirements": [
